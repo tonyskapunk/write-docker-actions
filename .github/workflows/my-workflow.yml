@@ -13,6 +13,8 @@ jobs:
 
       - name: hello-action
         uses: ./.github/actions/hello-world
+        with:
+          thirdGreeting: "Dogs are the best"
 
       - name: meow
         uses: ./.github/actions/cat-facts
